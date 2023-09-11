@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      /*display block*/
+      .block-element {
+        display: block;
+        background-color: blueviolet;
+        width: 200px;
+        height: 100px;
+      }
+      /*display inline*/
+      .inline-element {
+        display: inline;
+        background-color: aqua;
+        padding: 10px;
+      }
+      /*display inline block*/
+      .inline-block-element {
+        display: inline-block;
+        background-color: black;
+        width: 150px;
+        height: 150px;
+      }
+      /*diplasy flex*/
+      .flex-container {
+        display: flex;
+        background-color: aquamarine;
+      }
+      /*display grid*/
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        background-color: red;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="block-element">block element</div>
+    <span class="inline-element">inline element</span>
+    <div class="inline-block-element">inline blok element</div>
+    <div class="flex-container">
+      <div>grid item 1</div>
+      <div>grid item 2</div>
+      <div>grid item 3</div>
+    </div>
+    <div class="grid-container">
+      <div>G1</div>
+      <div>G2</div>
+      <div>G3</div>
+      <div>G4</div>
+    </div>
+  </body>
+</html>
